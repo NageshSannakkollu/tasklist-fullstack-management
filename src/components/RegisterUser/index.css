@@ -1,0 +1,43 @@
+.signup-main-container {
+    margin-top: 120px;
+}
+.show-password-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.checkbox-input {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+.label-title {
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.click-here-links {
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+}
+@media screen and (min-width:768px){
+    .password-show-password-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .click-here-links {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+}
+
+.link-login-signup {
+    color: #e4600d;
+}

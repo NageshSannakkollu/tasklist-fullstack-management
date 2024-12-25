@@ -1,0 +1,16 @@
+.not-found-main-container {
+    background-color: #030303f9;
+    color: #e4600d;
+    height: 100vh;
+}
+.not-found-inside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.not-found-no-task-image {
+    height: 250px;
+    width: 350px;
+}

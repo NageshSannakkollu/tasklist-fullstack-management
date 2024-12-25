@@ -1,0 +1,77 @@
+.contact-company-logo {
+        width: 300px;
+        height: 40px;
+        margin-top: 50px;
+        padding: 10px 40px;
+    }
+
+.location-infos-container {
+    display: flex;
+    align-items: center;
+}
+.contact-react-icons {
+    color: #e4600d;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.contact-mail-social-media-container {
+    display: flex;
+    justify-content: space-between;
+}
+ .contact-inside-container {
+    display: flex;
+    align-items: center;
+} 
+
+@media screen and (max-width:767px){
+    .contact-inside-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .contact-mail-social-media-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .location-contact-mail-media-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-company-logo {
+        width: 200px;
+        height: 30px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .contact-company-logo{
+        height: 50px;
+        width: 260px;
+    }
+}
+.location-para {
+    font-size: 15px;
+}
+
+.about-para {
+    width: 98%;
+}
+.location-contact-mail-media-container {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+.hr-line {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 2px;
+    background-color: #e4600d;
+    border: 0px;
+}

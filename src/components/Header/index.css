@@ -1,0 +1,41 @@
+.header-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px 50px;
+    background-color: #535253;
+    color: #fafafa;
+}
+
+.company-logo {
+    height: 50px;
+    width: 70%;
+}
+
+
+.un-order-header-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.home-link-item {
+    color: #cec8dc;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:767px){
+    .company-logo {
+        height: 30px;
+        width: 70%;
+    }
+    .header-nav-container {
+        padding: 10px 40px;
+    }
+    .un-order-header-items {
+        width: 350px;
+       
+    }
+}

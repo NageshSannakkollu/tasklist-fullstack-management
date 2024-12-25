@@ -1,0 +1,29 @@
+.update-page {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.update-page-container {
+    margin-top: 120px;
+}
+.update-page-button-container {
+    align-self: center;
+}
+
+.update-button-update-page {
+    padding: 10px 25px;
+    border-radius: 8px;
+    border:0;
+    cursor: pointer;
+    outline: none;
+    color: #0d0c0ce9;
+    background-color: #e4600d;
+    font-weight: bold;
+}
+
+@media  screen and (min-width:768px){
+    .task-name-description-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

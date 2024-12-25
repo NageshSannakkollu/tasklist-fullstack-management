@@ -1,0 +1,62 @@
+.task-list-details-container {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 10px 30px;
+}
+
+.update-button {
+    padding: 6px 15px;
+    border-radius: 8px;
+    background-color: #52b1d7;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+.delete-button{
+    background-color: #de1b1b;
+}
+
+/* POPUP */
+.popup-delete-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 180px;
+    background-color: #b7bfc2;
+}
+.confirm-cancel-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    margin-top: 30px;
+}
+.pop-buttons {
+    padding: 10px 23px;
+    border-radius: 8px;
+    border:0px;
+    cursor: pointer;
+    outline: none;
+    color: #fafafa;
+    font-weight: bold;
+}
+.confirm-button {
+    background-color: #de1b1b;
+}
+.cancel-button {
+    background-color: #1b5252;
+}
+.delete-sure {
+    text-align: center;
+}
+
+.over-due {
+    color: #de1b1b;
+}

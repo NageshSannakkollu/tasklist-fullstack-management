@@ -1,0 +1,22 @@
+.about-container {
+    background-color: #030303f9;
+    height: 100vh;
+    color: #fafafa;
+}
+.about-inside-container {
+    padding: 10px 40px;
+}
+.about-info-title {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.about-para {
+    font-size: 18px;
+    width: 50%;
+}
+@media screen and (max-width:767px){
+    .about-para{
+        width: 100%;
+    }
+}
