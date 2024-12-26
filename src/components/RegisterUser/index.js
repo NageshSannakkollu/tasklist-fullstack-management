@@ -17,7 +17,7 @@ const RegisterUser = () => {
     const registerHandler = async(e) => {
         e.preventDefault()
         // console.log("Registration:",values)
-        await axios.post(`https://task-list-system-backend.vercel.app/signup`,values)
+        await axios.post(`http://localhost:3010/signup`,values)
         .then((response)=> {
             console.log(response)
             navigate("/login")
