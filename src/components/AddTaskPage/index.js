@@ -20,7 +20,7 @@ const AddTaskPage = () => {
     const addTaskHandler = async(e) => {
         e.preventDefault()
         console.log("Values:",values)
-        await axios.post(`https://676bdb504c2ea8163b7e1696--task-list-backend-assign.netlify.app/tasks`,values)
+        await axios.post(`https://task-list-system-backend.vercel.app/tasks`,values)
         .then((response)=> {
             console.log(response)
             navigate("/")
