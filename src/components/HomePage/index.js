@@ -16,7 +16,7 @@ const HomePage = () => {
     if(deleted){
       setDeleted(false)
     const getTaskData = async() => {
-      const response = await fetch("http://localhost:3010/tasks");
+      const response = await fetch("https://task-list-system-backend.onrender.com/tasks");
       const data = await response.json()
       setTaskList(data)
     }   
@@ -26,7 +26,7 @@ const HomePage = () => {
 
   const clickOnDelete = (id) => {
     console.log("delete Id:",id)
-    axios.delete(`http://localhost:3010/tasks/${id}`)
+    axios.delete(`https://task-list-system-backend.onrender.com/tasks/${id}`)
     .then(response => {
       console.log(response)
       setDeleted(true)
