@@ -12,7 +12,7 @@ const UpdateTaskPage = () => {
     const navigate = useNavigate()
     useEffect(() => {
         const getData = async() => {
-            axios.get(`https://676bdb504c2ea8163b7e1696--task-list-backend-assign.netlify.app/tasks/${id}`)
+            axios.get(`https://task-list-system-backend.vercel.app/tasks/${id}`)
             .then((response) => {
                 // console.log("Response:",response.data)
                 setValues([response.data])
@@ -27,7 +27,7 @@ const UpdateTaskPage = () => {
 
     const updateTaskHandler = event=> {
         event.preventDefault()
-        axios.patch(`https://676bdb504c2ea8163b7e1696--task-list-backend-assign.netlify.app/tasks/${id}`,values[0])
+        axios.patch(`https://task-list-system-backend.vercel.app/tasks/${id}`,values[0])
         .then(response => {
             navigate("/")
             console.log("Response:",response)
