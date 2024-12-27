@@ -20,7 +20,7 @@ const AddTaskPage = () => {
     const addTaskHandler = async(e) => {
         e.preventDefault()
         console.log("Values:",values)
-        await axios.post(`https://task-list-system-backend.onrender.com/tasks`,values)
+        await axios.post(`https://task-list-system-backend.onrender.com/tasks`,values) 
         .then((response)=> {
             console.log(response)
             navigate("/")
